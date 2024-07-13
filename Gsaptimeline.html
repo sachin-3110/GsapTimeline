@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAPTimeline</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="box-border">
+    <main
+      class="bg-black text-gray-200 h-screen w-screen sm:text-xl p-2 flex flex-col justify-between"
+    >
+      <div id="nav" class="flex justify-between uppercase mt-2">
+        <div id="icon">Sachin</div>
+        <div id="clickables" class="flex w-[30%] justify-between pr-5">
+          <h2 class="hover:cursor-pointer">Instagram</h2>
+          <h2 class="hover:cursor-pointer">Github</h2>
+          <h2 class="normal-case hover:cursor-pointer">LinkedIn</h2>
+        </div>
+      </div>
+      <div class="w-[100%] h-[90%] uppercase" class="relative">
+          <div id="card3" class="h-[50%] w-[20%] overflow-hidden opacity-0 bg-yellow-400 absolute left-[40%]">
+              <img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fG1hbGUlMjBtb2RlbHN8ZW58MHx8MHx8fDA%3D" alt="">
+          </div>
+          <div id="card1" class="h-[50%] w-[20%] overflow-hidden opacity-0 bg-green-400 absolute left-[40%]">
+              <img src="https://images.unsplash.com/photo-1529790424014-6c967f42b81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fG1hbGUlMjBtb2RlbHN8ZW58MHx8MHx8fDA%3D" alt="">
+          </div>
+        <div id="card2" class="h-[50%] w-[20%] overflow-hidden opacity-0 bg-pink-400 absolute left-[40%]">
+            <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzWFyY2h8N3x8bWFsZSUyMG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+        </div>
+        <div
+          class="z-15 h-[100%] flex flex-col justify-center items-center"
+          id="text"
+        >
+          <div class="w-[100%] text-[20vh] p-20 text-center pr-[20%]">
+            Hello I'm
+          </div>
+          <div class="w-[100%] text-[20vh] p-20 text-right pr-[20%]">
+            Sachin
+          </div>
+          <div class="w-[100%] text-[20vh] p-20 text-center">Sharma</div>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="gsaptimeline.js"></script>
+  </body>
+</html>
